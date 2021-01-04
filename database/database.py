@@ -1,5 +1,6 @@
 ''' Database config '''
 import json
+import pymysql
 
 with open('database_auth.json','r') as readfile:
     database_auth = json.load(readfile)
